@@ -5,12 +5,9 @@
 }
 
 body {
-    /* background: #090909;
-    background: -webkit-linear-gradient(top right, #090909, #484848);
-    background: -moz-linear-gradient(top right, #090909, #484848);
-    background: linear-gradient(to bottom left, #090909, #484848); */
-    background-color: blanchedalmond;
-  height: 100vh;
+
+  background-color: blanchedalmond;
+  /* height: 100vh; */
   color: #dcdcdc;
 }
 .page-title {
@@ -18,12 +15,11 @@ body {
   margin-top: 50px;
   margin-bottom: 20px;
   /* font-family: "Fuzzy Bubbles", cursive; */
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-size: 55px;
   /* color: whitesmoke; */
   color: black;
-
 }
 .container {
   /* margin: 0 50px 25px; */
@@ -53,16 +49,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 .versus {
   display: inline-block;
   position: absolute;
-color: black;
-
-    /* -webkit-text-stroke-width: 0.5px;
-   -webkit-text-stroke-color: black; */
-
+  color: black;
   top: 23%;
   left: 43%;
   font-family: "Smooch", cursive;
@@ -71,13 +62,14 @@ color: black;
   text-transform: uppercase;
 }
 .button {
-    position: absolute;
-    display: inline-block;
-    bottom: -40px;
-    left: 40%;
-    padding: 10px 75px;
-    font-family: 'Indie Flower', cursive;
+  position: absolute;
+  display: inline-block;
+  bottom: -50px;
+  left: 40%;
+  padding: 10px 75px;
+  font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-size: 55px;
   line-height: 48px;
+  background-color: whitesmoke;
 }

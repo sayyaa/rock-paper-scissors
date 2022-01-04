@@ -30,3 +30,4 @@ button.addEventListener('click', function() {
     smoothly(image, 'src', randomElementOne.image)
     smoothly(image_mirror, 'src', randomElementTwo.image)
 })
+
